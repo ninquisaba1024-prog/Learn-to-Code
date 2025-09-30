@@ -1,0 +1,15 @@
+head>
+  <style>
+    body {
+      background-color: lightgray;
+    }
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    p {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+    }
+  </style>
+</head>
