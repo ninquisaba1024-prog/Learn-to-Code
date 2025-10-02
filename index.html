@@ -19,18 +19,54 @@
             margin: 60px auto;
             box-shadow: 0 4px 32px rgba(0,0,0,0.2);
         }
+        .language-section {
+            margin: 24px 0;
+            text-align: center;
+        }
+        .language-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+        .lang-btn {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 28px;
+            font-size: 1em;
+            margin: 8px 0;
+            cursor: pointer;
+            transition: background 0.2s;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+        }
+        .lang-btn:hover {
+            background: #0056b3;
+        }
     </style>
 </head>
 <body>
     <div class="content-box">
         <h1>Learn To Greatness</h1>
         <h2>Let's start learning HTML</h2>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/qNhgl1tN5vU?si=A6eVh3j_gOKn_3GX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qNhgl1tN5vU?si=A6eVh3j_gOKn_3GX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>In this website, just one click and you’ll slowly learn how to code like a pro.</p>
-        <p>Click the link down below:</p>
-        <a href="https://www.w3schools.com/" target="_blank">
-            <button class="styled-btn">Visit W3Schools.com!</button>
+        
+            
         </a>
+        <!-- Language Selection Section -->
+        <section class="language-section">
+            <h3>Now choose a language to start learning:</h3>
+            <div class="language-buttons">
+                <a href="https://www.w3schools.com/html/" target="_blank"><button class="lang-btn">HTML</button></a>
+                <a href="https://www.w3schools.com/java/" target="_blank"><button class="lang-btn">Java</button></a>
+                <a href="https://www.w3schools.com/python/" target="_blank"><button class="lang-btn">Python</button></a>
+                <a href="https://www.w3schools.com/js/" target="_blank"><button class="lang-btn">JavaScript</button></a>
+                <a href="https://www.w3schools.com/cpp/" target="_blank"><button class="lang-btn">C++</button></a>
+                <a href="https://www.w3schools.com/sql/" target="_blank"><button class="lang-btn">SQL</button></a>
+            </div>
+        </section>
     </div>
 </body>
 </html>
